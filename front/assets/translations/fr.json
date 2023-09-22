@@ -1,0 +1,32 @@
+{
+    "actions": {
+        "add": "Ajouter",
+        "continue": "Continuer",
+        "cancel": "Annuler",
+        "finish": "Terminer",
+        "manage": "Gérer",
+        "subscribe": "S’abonner",
+        "unsubscribe": "Se désabonner",
+        "publish": "Publier",
+        "newGroup": "Nouveau groupe",
+        "myDiscussions": "Mes discussions",
+        "share": "Partager",
+        "like": "J’aime",
+        "comment": "Commenter",
+        "edit": "Modifier",
+        "delete": "Supprimer",
+        "reply": "Répondre",
+        "copy": "Copier",
+        "unfold": "Afficher plus",
+        "fold": "Replier",
+        "confirm": "Confirmer",
+        "leave": "Quitter",
+        "archive": "Archiver",
+        "search": {
+            "results": {
+                "singular": "%d résultat",
+                "plural": "%d résultats"
+            }
+        }
+    }
+}

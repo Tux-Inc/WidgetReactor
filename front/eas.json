@@ -1,0 +1,34 @@
+{
+    "cli": {
+        "version": ">= 5.1.0"
+    },
+    "submit": {
+        "production": {}
+    },
+    "build": {
+        "development": {
+            "developmentClient": true,
+            "distribution": "internal"
+        },
+        "preview": {
+            "distribution": "internal",
+            "android": {
+                "buildType": "apk"
+            },
+            "env": {
+                "EXPO_PUBLIC_API_URL": "https://masurao.fr/api",
+                "EXPO_PUBLIC_API_NASA_KEY": "pMHOukKJMYnddeyLJRUAHrieCl9DXF1rAgxZlfhX",
+                "EXPO_PUBLIC_API_GROUP_AUTHORIZATION": "7ccb60a965c95dcf36be8e32770323bf"
+            }
+        },
+        "preview2": {
+            "android": {
+                "gradleCommand": ":app:assembleRelease"
+            }
+        },
+        "preview3": {
+            "developmentClient": true
+        },
+        "production": {}
+    }
+}
